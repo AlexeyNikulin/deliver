@@ -1,0 +1,77 @@
+.review {
+    min-height: 470px;
+    padding: 51px 0 65px 0;
+    &__header {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        color: #2e2e2e;
+        text-transform: uppercase;
+    }
+    &__divided {
+        width: 148px;
+        height: 2px;
+        background-color: #ec644b;
+        opacity: 0.5;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    &__subheader {
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+        color: #2e2e2e;
+        margin-top: 12px;
+    }
+    &__inner {
+        position: relative;
+        width: 601px;
+        margin: 0 auto;
+        margin-top: 31px;
+    }
+    &__women {
+        // position: relative;
+        margin: 0 auto;
+        // z-index: 3;
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 13px;
+        text-align: center;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        text-align: justify;
+        color: #3a3a3a;
+        margin-top: 5px;
+    }
+    .slick-prev {
+        position: absolute;
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        top: 40px;
+        left: 185px;
+        z-index: 1;
+        outline: none;
+        img {
+            width: 14px;
+            height: 47px;
+        }
+    }
+    .slick-next {
+        position: absolute;
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        top: 40px;
+        right: 185px;
+        z-index: 1;
+        outline: none;
+        img {
+            width: 14px;
+            height: 47px;
+        }
+    }
+}

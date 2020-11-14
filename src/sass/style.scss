@@ -1,0 +1,41 @@
+@import 'libs/animate';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/button';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/advantages';
+@import 'blocks/work';
+@import 'blocks/agent';
+@import 'blocks/catalog';
+@import 'blocks/forms';
+@import 'blocks/manager';
+@import 'blocks/scheme';
+@import 'blocks/review';
+@import 'blocks/consultation';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'blocks/modal';
+
+input.error {
+    border: 1px solid red;
+}
+
+label.error {
+    border: none;
+    color: red;
+    font-size: 16px;
+}

@@ -1,0 +1,56 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 99px;
+    top: 23px;
+    padding-top: 23px;
+    &__logo {
+        display: block;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 600px;
+        font-size: 14px;
+        color: #ffffff;
+    }
+    &__item {
+        padding-right: 10px;
+        border-right: 2px dotted black;
+        &_last-child {
+            border-right: none;
+        }
+    }
+    &__link {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 300;
+        &:hover {
+            color: #ec644b;
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+    }
+    &__question {
+        text-align: right;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.71;
+        color: #ffffff;
+    }
+    &__phone {
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 1.26;
+        text-align: right;
+        color: #ffffff;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+}

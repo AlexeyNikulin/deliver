@@ -1,0 +1,53 @@
+.work {
+    min-height: 620px;
+    padding: 51px 0 57px 0;
+    &__header {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        color: #2e2e2e;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+    &__divided {
+        width: 148px;
+        height: 1px;
+        background: #ec644b;
+        margin: 0 auto;
+        margin-top: 18px;
+    }
+    &__subheader {
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+        color: #2e2e2e;
+        width: 879px;
+        margin: 0 auto;
+        margin-top: 17px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        margin-top: 37px;
+    }
+    &__item {
+        width: 360px;
+    }
+    &__text {
+        margin-top: 28px;
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        color: #ec644b;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;;
+        line-height: 1.57;
+        color: #3a3a3a;
+        text-align: justify;
+    }
+}

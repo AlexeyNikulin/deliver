@@ -1,0 +1,27 @@
+.manager {
+    min-height: 342px;
+    background: url(../img/bg/review_bg.jpg) center (center/cover) no-repeat;
+    padding: 58px 0 76px 0;
+    transition: 1s all;
+    &:hover {
+        background: url(../img/bg/review_bg_after_click.jpg) center (center/cover) no-repeat;
+    }
+    &__icon {
+        display: block;
+        margin: 0 auto;
+    }
+    &__header {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 15px;
+    }
+    &__subheader {
+        font-size: 19px;
+        font-weight: 300;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.65);
+        margin-top: 12px;
+    }
+}
